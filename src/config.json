@@ -1,0 +1,37 @@
+{
+  "serverInfoConfig": {
+    "serverName": "server1",
+    "startIndex": 100
+  },
+  "cryptoDeviceConfig":{
+    "deviceIp":"192.168.1.188",
+    "devicePort":1818,
+    "timeOut": 1
+  },
+  "dbConfig":{
+    "dbType":"mysql",
+    "dbSource":"root:123456@tcp(192.168.1.107:3306)/emultiwallet?charset=utf8"
+  },
+  "isHttps": false,
+  "httpConfig":{
+    "endPoint":"192.168.1.107:18080",
+    "charSet":"UTF-8"
+  },
+  "httpsConfig":{
+    "endPoint":":443",
+    "certFile":"",
+    "keyFile":"",
+    "charSet":"UTF-8"
+  },
+  "isWss": false,
+  "wsConfig":{
+    "url":"ws://192.168.1.152:8080/api/ws",
+    "origin":"http://192.168.1.152/",
+    "timeout": 30
+  },
+  "wssConfig":{
+    "url":"wss://192.168.1.107:443/api/ws",
+    "origin":"https://192.168.1.107:443",
+    "timeout": 30
+  }
+}
